@@ -1,10 +1,10 @@
 # 14/11/2019
 
-## GIT (eca)
+## GIT
 
 installer Git en Local
 
-## UBUNTU (a)
+## UBUNTU 
 
 vérifier que l'environnement ubuntu 18.04 est à jour
 mettre à jour ubuntu avec les commandes suivantes :
@@ -19,7 +19,7 @@ sudo apt-get upgrade
 - tester plateforme wordpress.com, blogger ?
 
 
-## CHROME BROWSER (a)
+## CHROME BROWSER 
 
 IMPORTANT :
 
@@ -29,11 +29,11 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-### Installer navigateur Chrome avec le terminal (en ligne de commande) (ok)
+### Installer navigateur Chrome avec le terminal (en ligne de commande) 
 
 Ouvrir le terminal de commande (Ctrl+Alt+touche T)
 
-### Install Google Chrome on Ubuntu 18.04 LTS from the Command Line (ok)
+### Install Google Chrome on Ubuntu 18.04 LTS from the Command Line 
 ```
 sudo nano /etc/apt/sources.list.d/google-chrome.list
 ```
@@ -56,16 +56,16 @@ https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-18-04-lts
 
 15/11
 
-## GMAIL (a)
+## GMAIL 
 
 se rendre sur :
 https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
 
 
-## DISCORD (a)
+## DISCORD 
 
 
-### install discord (ok)
+### install discord 
 
 - discord :
 Chat vocal et textuel tout-en-un gratuit, sécurisé, qui fonctionne sur PC et smartphone
@@ -89,7 +89,7 @@ lorsque la page (https://snapcraft.io/discord) s'ouvre, cliquer sur le bouton "i
 ```
 sudo snap install discord
 ```
-### creation profil utilisateur sur discord (a)
+### creation profil utilisateur sur discord 
 
 Une fois installer, aller sur ubuntu et cliquer sur le lanceur d'application dans la barre de tâches.
 
@@ -98,21 +98,21 @@ saisir "discord" dans la recherche
 lorsque l'application s'affiche, suivre les consignes pour créer son profil utilisateur
 
 *plus d'infos* :
-https://marmelab.com/blog/2019/05/15/creer-et-publier-une-application-web-sur-linux-grace-aux-snaps.html
+- https://marmelab.com/blog/2019/05/15/creer-et-publier-une-application-web-sur-linux-grace-aux-snaps.html
 
 
-## GIT (a)
+## GIT 
 
-### créer un compte sur github (a)
+### créer un compte sur github 
 
-#### creation profil utilisateur (ok)
+#### creation profil utilisateur 
 
 https://github.com/
 
-#### modification profil utilisateur (ok)
+#### modification profil utilisateur 
 https://github.com/sambadata
 
-#### créer un nouveau dépôt (ok)
+#### créer un nouveau dépôt 
 
 aller sur :
 https://github.com/new
@@ -121,9 +121,9 @@ entrer le nom du dépôt "hello-word" dans "Repository name"
 
 cliquer sur "Initialize this repository with a README" pour générer un fichier README.md dans le dépôt "hello-world"
 
-### Git en local (a)
+### Git en local 
 
-#### installer git sur ubuntu 18.04 (ok)
+#### installer git sur ubuntu 18.04 
 
 ouvrir le terminal de commande (Ctrl+Alt+touche T) et saisir :
 ```
@@ -138,9 +138,9 @@ si jamais il faut modifier quelquechose, saisir la commande suivante :
 nano ~/.gitconfig
 ```
 *plus d'infos* :
-https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04-quickstart
+- https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04-quickstart
 
-#### Clone du dépôt "hello-word" en local (ok) 
+#### Clone du dépôt "hello-word" en local  
 
 ouvrir le terminal de commande (Ctrl+Alt+touche T)
 
@@ -152,7 +152,7 @@ ensuite, une fois dans le dossier de votre choix à l'intérieur du dossier /Doc
 ```
 git clone https://github.com/sambadata/hello-word.git
 ```
-#### Vérifier les clés SSH existantes (SSH Keys) présent en local sur notre laptop avec la commande (ok)
+#### Vérifier les clés SSH existantes (SSH Keys) présent en local sur notre laptop avec la commande 
 ```
 ls -al ~/.ssh
 ```
@@ -169,7 +169,7 @@ ssh-keygen -t rsa -b 4096 -C "votre-email@example.com"
 ```
 puis suivre les instructions qui s'affichent.
 
-#### ajouter les clés SSH (SSH Key) à ssh-agent (ok)
+#### ajouter les clés SSH (SSH Key) à ssh-agent 
 
 - lancer ssh-agent en activité background sur ubuntu : 
 ```
@@ -182,9 +182,9 @@ ssh-add ~/.ssh/id_rsa
 Si on a créé une clé privée avec un nom différent de id_rsa alors penser à remplacer id_rsa dans la commande avec le nom spécifique de la clé privée.
 
 *plus d'infos* :
-https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+- https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-#### ajouter notre clé SSH (SSH key) (ok)
+#### ajouter notre clé SSH (SSH key) 
 
 - copier la SSH key dans le presse-copie (clipboard) avec les commandes suivantes :
 ```
@@ -202,7 +202,7 @@ Donner un nom dans "Title" et coller le contenu de la clé dans "Key".
 
 Cliquer enfin sur le bouton "Add SSH key" 
 
-#### Tester la connexion SSH avec github (ok)
+#### Tester la connexion SSH avec github 
 
 ouvrir le terminal de commande (Ctrl+Alt+touche T)
 
@@ -212,7 +212,7 @@ ssh -T git@github.com
 ```
 Si le message suivant apparaît "You've successfully authenticated, but GitHub does not provide shell access." alors  passer à l'étape ci-après.
 
-#### activer les connexions SSH avec HTTPS (ok)
+#### activer les connexions SSH avec HTTPS 
 
 les connexions avec github doivent pouvoir se faire sur le port 443.
 
@@ -236,8 +236,8 @@ Re-tester la connexion avec github toujours avec la commande suivante :
 ssh -T git@github.com
 ```
 *plus d'infos* :
-https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
-https://help.github.com/en/github/authenticating-to-github/using-ssh-over-the-https-port
+- https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
+- https://help.github.com/en/github/authenticating-to-github/using-ssh-over-the-https-port
 
 
 
