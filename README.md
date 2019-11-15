@@ -1,33 +1,15 @@
-# 14/11/2019
-
-## GIT
-
-installer Git en Local
-
 ## UBUNTU 
 
-vérifier que l'environnement ubuntu 18.04 est à jour
-mettre à jour ubuntu avec les commandes suivantes :
+**IMPORTANT** :
+
+Avant toute installation, vérifier que l'environnement ubuntu 18.04 est à jour avec les commandes suivantes :
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
-
-## Carnet de suivi dev data (eca)
-
-- tester plateforme wordpress.com, blogger ?
-
 
 ## CHROME BROWSER 
-
-IMPORTANT :
-
-Avant toute installation, il faut toujour vérifier la mise à jour du système d'exploitation (OS), Ubuntu avec les commandes suivantes saisies dans le terminal:
-```
-sudo apt-get update
-sudo apt-get upgrade
-```
 
 ### Installer navigateur Chrome avec le terminal (en ligne de commande) 
 
@@ -53,8 +35,6 @@ sudo apt install google-chrome-stable
 ##### source :
 https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-18-04-lts
 
-
-15/11
 
 ## GMAIL 
 
@@ -238,39 +218,3 @@ ssh -T git@github.com
 *plus d'infos* :
 - https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
 - https://help.github.com/en/github/authenticating-to-github/using-ssh-over-the-https-port
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
