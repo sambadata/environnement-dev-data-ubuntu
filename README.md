@@ -38,8 +38,8 @@ https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-18-04-lts
 
 ## GMAIL 
 
-se rendre sur :
-https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
+pour créer un compte email, aller sur :
+- https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp
 
 
 ## DISCORD 
@@ -47,19 +47,18 @@ https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=htt
 
 ### install discord 
 
-- discord :
-Chat vocal et textuel tout-en-un gratuit, sécurisé, qui fonctionne sur PC et smartphone
-https://discordapp.com
+Discord est un chat vocal et textuel gratuit et sécurisé qui fonctionne sur PC et smartphone
+- https://discordapp.com
 
-- Installer discord sur ubuntu avec snapcraft :
+#### Installer discord sur ubuntu avec snapcraft :
 
 aller sur :
-https://snapcraft.io/discord
+- https://snapcraft.io/discord
 
-puis, Ouvrir le navigateur Chrome 
+puis, ouvrir le navigateur Chrome 
 
 Dans la barre d'adresse, saisir l'adresse url suivante :
-https://snapcraft.io/store
+- https://snapcraft.io/store
 
 dans la recherche, saisir le mot "discord" et appuyer sur la touche "entrée"
 
@@ -90,12 +89,12 @@ lorsque l'application s'affiche, suivre les consignes pour créer son profil uti
 https://github.com/
 
 #### modification profil utilisateur 
-https://github.com/sambadata
+- https://github.com/<votre-nom-utilisateur>
 
 #### créer un nouveau dépôt 
 
 aller sur :
-https://github.com/new
+- https://github.com/new
 
 entrer le nom du dépôt "hello-word" dans "Repository name"
 
